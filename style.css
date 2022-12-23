@@ -10,12 +10,14 @@ body {
     margin: 0;
     padding: 0;
     width: 100%;
+    height: 100%;
 }
 
 /* Section I ~ This is here to separate website to sections. */
 
-.container {
+.container-1 {
     background-color: #1F2937;
+    border: 5px solid goldenrod;
     padding: 64px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,7 +67,9 @@ li > a {
 }
 
 .hero {
-    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .main-text {
@@ -78,3 +82,72 @@ li > a {
     color: #E5E7EB;
     font-size: 18px;
 }
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+/* Section III ~ This is here to separate website to sections. */
+
+.container-2 {
+    border: 5px solid goldenrod;
+    text-align: center;
+    padding: 0px 56px 48px 56px;
+}
+
+.information {
+    border: 5px solid red;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.box-container {
+    border: 5px solid mediumaquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 24px 0px;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+}
+
+/* Section IV ~ This is here to separate website to sections. */
+
+.container-3 {
+    border: 5px solid goldenrod;
+    background-color: #E5E7EB;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    border: 5px solid mediumaquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 775px;
+    height: 300px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.writer {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+/* Section V ~ This is here to separate website to sections. */
