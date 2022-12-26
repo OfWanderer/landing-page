@@ -88,9 +88,17 @@ li > a {
     font-size: 18px;
 }
 
-button {
-    background-color: #3882F6;
+.button-1 {
+    background-color: hsl(217, 91%, 59%);
     color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #1F2937;
+    padding: 5px 22px;
+}
+
+.button-1:active {
+    background-color: hsl(217, 91%, 40%);
 }
 
 #picture img {
@@ -104,6 +112,10 @@ button {
     border: 5px solid goldenrod;
     text-align: center;
     padding: 0px 56px 48px 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .information {
@@ -111,6 +123,7 @@ button {
     color: #1F2937;
     font-size: 36px;
     font-weight: 900;
+    width: 75%;
 }
 
 .box-container {
@@ -118,13 +131,30 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
     gap: 24px;
-    padding: 24px 0px;
+    padding: 48px 64px;
+    margin-bottom: 48px;
 }
 
 .box {
     width: 250px;
     height: 250px;
+    margin-bottom: 8px;
+}
+
+.box-picture {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+}
+
+.box-text {
+    margin: 8px 0px;
 }
 
 /* Section IV ~ This is here to separate website to sections. */
@@ -192,6 +222,19 @@ button {
 
 .call-subtext {
     color: #E5E7EB;
+}
+
+.button-2 {
+    background-color: hsl(217, 91%, 59%);
+    color: #F9FAF8;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid #F9FAF8;
+    padding: 5px 22px;
+}
+
+.button-2:active {
+    background-color: hsl(217, 91%, 40%);
 }
 
 /* Section VI ~ This is here to separate website to sections. */
