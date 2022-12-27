@@ -33,8 +33,6 @@ html, body {
     color: #F9FAF8;
     font-size: 24px;
     flex: auto;
-    padding: 12px;
-    flex: auto;
 }
 
 .header {
@@ -65,7 +63,6 @@ a:hover {
 /* Section II ~ This is here to separate website to sections. */
 
 .hero-container {
-    border: 5px solid gold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,10 +106,9 @@ a:hover {
 }
 
 .picture {
-    border: 5px solid mediumaquamarine;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-end;
+    align-items: flex-start;
     align-self: stretch;
     width: 500px;
     height: 300px;
